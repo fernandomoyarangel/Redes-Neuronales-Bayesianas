@@ -41,10 +41,11 @@ Implementación de una red neuronal convolucional bayesiana usando **Bayes By Ba
 ---
 
 ## 📌 Objetivo
-Explorar y aplicar técnicas de deep learning bayesiano y de explicabilidad para evaluar modelos más robustos, confiables y transparentes. El enfoque se centra en:
-- Entender cómo y por qué los modelos hacen sus predicciones
-- Medir la incertidumbre asociada a dichas predicciones
+Explorar y aplicar técnicas de deep learning bayesiano para evaluar modelos más robustos, confiables y transparentes. El enfoque se centra en:
+- Entender las principales ventajas y desventajas de las redes neuronales bayesianas
+- Medir la incertidumbre asociada a las predicciones
 - Aplicar estas ideas a problemas reales de clasificación, regresión y segmentación
+- Sacar conclusiones de los métodos de inferencia bayesiana más óptimos en la práctica
 
 ---
 
