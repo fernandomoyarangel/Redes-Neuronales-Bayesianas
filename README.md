@@ -1,11 +1,11 @@
-# Proyecto TFG - Modelos Probabilísticos y Explicabilidad en Deep Learning
+# TFG - Métodos de Inferencia en Redes Neuronales Bayesianas
 
 Este repositorio contiene diferentes notebooks que exploran técnicas modernas de deep learning con enfoque en modelos probabilísticos, estimación de incertidumbre y explicabilidad, aplicados a tareas de regresión, clasificación y segmentación de imágenes.
 
 ## 📁 Contenidos
 
 ### `Datos-Segmentacion.ipynb`
-Preprocesamiento y preparación de datos para el proyecto de segmentación de imágenes. Aquí se organizan los datos de entrada que se utilizan en modelos posteriores.
+Preprocesamiento y preparación de datos de **CityScapes** para el proyecto de segmentación de imágenes. Aquí se organizan y procesan los datos de entrada que se utilizan en modelos posteriores.
 
 ### `Segmentacion-Imagenes.ipynb`
 Comparativa entre modelos deterministas y bayesianos (MC Dropout) sobre la misma arquitectura de SegNet en tareas de **segmentación de imágenes**. Además, se incorpora:
@@ -14,18 +14,18 @@ Comparativa entre modelos deterministas y bayesianos (MC Dropout) sobre la misma
 - 🔍 Técnicas de explicabilidad como **Grad-CAM**
 
 ### `Sistema-Frenado.ipynb`
-Aplicación práctica del modelo con MC Dropout en un sistema de frenado. Se analiza el comportamiento del modelo en un escenario de decisión real, donde la estimación de incertidumbre es crítica.
+Aplicación práctica del modelo con MC Dropout en un sistema de frenado. Se analiza la calidad de las segmentaciones de los modelos anteriores en un escenario de decisión real, donde la estimación de incertidumbre es crítica.
 
 ### `IncertidumbreRegresion.ipynb`
 Ejemplo didáctico de regresión donde se compara:
-- Modelos deterministas
-- Modelos de inferencia variacional (VI) usando **TensorFlow Probability (TFP)**
-- Métodos bayesianos avanzados como **NUTS** usando **TensorFlow Probability (TFP)**
+- Red neuronal determinista
+- Red neuronal bayesiana con inferencia variacional (VI) usando **TensorFlow Probability (TFP)**
+- Red neuronal bayesiana con MCMC, en concreto **NUTS** usando **TensorFlow Probability (TFP)**
 
-Se ilustra cómo varía la incertidumbre según el enfoque adoptado.
+Se muestra cómo varía la incertidumbre según el enfoque adoptado.
 
 ### `bbb-clasificacion-f.ipynb`
-Implementación de una red neuronal convolucional bayesiana usando **Bayes By Backprop (BBB)**, inspirada en la implementación de **Shrimar**. Se aplica al dataset **CIFAR-10** para tareas de clasificación, comparando rendimiento y comportamiento frente a redes deterministas.
+Implementación de una red neuronal convolucional bayesiana usando **Bayes By Backprop (BBB)**, inspirada en la implementación de **Shridhar**. Se aplica al dataset **CIFAR-10** para tareas de clasificación, comparando rendimiento y comportamiento frente a redes deterministas.
 
 ---
 
