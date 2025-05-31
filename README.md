@@ -60,4 +60,6 @@ Trabajo de Fin de Grado (TFG)
 - Shridhar, K., Laumann, F., & Liwicki, M. (2019). *A comprehensive guide to Bayesian convolutional neural network with variational inference*. arXiv preprint [arXiv:1901.02731](https://arxiv.org/abs/1901.02731)
 
 - Shridhar, K., Laumann, F., & Liwicki, M. (2018). *Uncertainty estimations by softplus normalization in Bayesian convolutional neural networks with variational inference*. arXiv preprint [arXiv:1806.05978](https://arxiv.org/abs/1806.05978)
+  
+- Kendall, A., Badrinarayanan, V., & Cipolla, R. (2016). *Bayesian SegNet: Model Uncertainty in Deep Convolutional Encoder-Decoder Architectures for Scene Understanding*. arXiv preprint [arXiv:1511.02680](https://arxiv.org/abs/1511.02680)
 
