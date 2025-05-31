@@ -25,7 +25,7 @@ Ejemplo didáctico de regresión donde se compara:
 Se muestra cómo varía la incertidumbre según el enfoque adoptado.
 
 ### `bbb-clasificacion-f.ipynb`
-Implementación de una red neuronal convolucional bayesiana usando **Bayes By Backprop (BBB)**, inspirada en la implementación de **Shridhar**. Se aplica al dataset **CIFAR-10** para tareas de clasificación, comparando rendimiento y comportamiento frente a redes deterministas.
+Implementación de una red neuronal convolucional bayesiana usando **Bayes By Backprop (BBB)** con el local reparametrization trick. Se aplica al dataset **CIFAR-10** para tareas de clasificación, comparando rendimiento y comportamiento frente a redes deterministas.
 
 ---
 
@@ -52,3 +52,12 @@ Explorar y aplicar técnicas de deep learning bayesiano para evaluar modelos má
 ## 👤 Autor
 **Fernando Francisco Moya Rangel**  
 Trabajo de Fin de Grado (TFG)
+
+---
+
+## 📚 Referencias
+
+- Shridhar, K., Laumann, F., & Liwicki, M. (2019). *A comprehensive guide to Bayesian convolutional neural network with variational inference*. arXiv preprint [arXiv:1901.02731](https://arxiv.org/abs/1901.02731)
+
+- Shridhar, K., Laumann, F., & Liwicki, M. (2018). *Uncertainty estimations by softplus normalization in Bayesian convolutional neural networks with variational inference*. arXiv preprint [arXiv:1806.05978](https://arxiv.org/abs/1806.05978)
+
