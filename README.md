@@ -48,6 +48,16 @@ Explorar y aplicar técnicas de deep learning bayesiano para evaluar modelos má
 - Sacar conclusiones de los métodos de inferencia bayesiana más óptimos en la práctica
 
 ---
+## 🛠️ Recursos utilizados
+El desarrollo del Trabajo de Fin de Grado se ha llevado a cabo principalmente utilizando los siguientes entornos y plataformas:
+
+- **Google Colab Pro**: entorno principal para el entrenamiento y evaluación de los modelos en la segmentación de imágenes. Se ha aprovechado el acceso a GPU (Tesla A100) para acelerar el entrenamiento de las redes convolucionales con tantas capas y parámetros a optimizar.
+- **Kaggle**: empleado en los experimentos de regresión y clasificación. Gracias al acceso gratuito a GPU y al entorno reproducible de notebooks, fue posible acelerar el proceso de entrenamiento y almacenar los resultados de forma eficiente.
+
+Estas herramientas han permitido un flujo de trabajo flexible y eficiente en la experimentación con modelos bayesianos de deep learning.
+
+---
+
 
 ## 👤 Autor
 **Fernando Francisco Moya Rangel**  
